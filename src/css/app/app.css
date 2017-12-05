@@ -39,6 +39,8 @@ h6 {
   color: #FFF;
 }
 
+a,
+a:hover,
 .x10-cl-red {
   color: #F21F2A
 }
@@ -46,6 +48,7 @@ h6 {
 .x10-cl-gray {
   color: #666;
 }
+
 
 /* BACKGROUNDS */
 
@@ -111,6 +114,10 @@ body {
   height: 15px;
   background: #F21F2A;
   border-radius: 10px;
+}
+
+.x10-construction {
+  margin: 60px 0;
 }
 
 /* CTA */
