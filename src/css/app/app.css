@@ -6,7 +6,78 @@
 
 /* FONTS */
 
+h1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.8;
+}
+
+h5 {
+  font-size: 1.6;
+}
+
+h6 {
+  font-size: 1.4;
+}
+
+/* COLORS */
+
+.x10-cl-white {
+  color: #FFF;
+}
+
+.x10-cl-red {
+  color: #F21F2A
+}
+
+.x10-cl-gray {
+  color: #666;
+}
+
+/* BACKGROUNDS */
+
+.x10-bg-black {
+  background: #000;
+}
+
+.x10-bg-gray {
+  background: #272727;
+}
+
+.x10-bg-red {
+  color: #F21F2A;
+}
+
 /* SPACER */
+
+.x10-sp-sm {
+  margin-bottom: 15px;
+}
+
+.x10-sp-md {
+  margin-bottom: 30px;
+}
+
+.x10-sp-lg {
+  margin-bottom: 60px;
+}
+
+.x10-sp-xl {
+  margin-bottom: 180px;
+}
 
 /* GENERAL */
 
@@ -24,15 +95,47 @@ body {
   background-image: linear-gradient(-180deg, #272727 0%, #000000 100%);
 }
 
+.x10 {
+  padding: 60px;
+}
+
+/* COMPONENTS */
+
+.x10-logo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.x10-accent-line {
+  width: 100%;
+  height: 15px;
+  background: #F21F2A;
+  border-radius: 10px;
+}
+
 /* CTA */
 
 /* MEDIA */
 
-@media (max-width: 40.0rem) {
-  .lnf-mobile-only {
-    display: block;
+@media (max-width: 575px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
   }
+  .x10 {
+    padding: 15px 0;
+  }
+ }
+
+@media (max-width: 767px) {
+
 }
 
-@media (max-width: 80.0rem) {
+@media (max-width: 991px) {
+  .x10 {
+    padding: 30px;
+  }
+  .x10-logo {
+    width: 45px;
+  }
 }
