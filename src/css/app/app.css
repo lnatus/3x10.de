@@ -157,6 +157,58 @@ footer .x10-imp-ref {
   border: 3px solid #FFF;
 }
 
+/* CTA */
+
+.x10-cta {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  max-width: 500px;
+  overflow: hidden;
+  background: #FFF;
+  margin-left: 30px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.x10-cta .x10-cta-head {
+  padding: 30px;
+  text-align: center;
+  color: #FFF;
+  font-size: 3rem;
+  background-image: linear-gradient(-180deg, #272727 0%, #000000 100%);
+}
+
+.x10-cta .x10-cta-head img {
+  height: 60px;
+}
+
+.x10-cta .x10-cta-head .fa-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.x10-cta .x10-cta-head .x10-divider {
+  height: 5px;
+  width: 100px;
+  margin: 15px auto;
+  background: #666;
+}
+
+.x10-cta .x10-cta-body {
+  padding: 30px;
+  text-align: center;
+  color: #222;
+}
+
+.x10-cta .x10-cta-body h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
 /*POST CONTENT */
 
 .x10-post-content {
@@ -178,8 +230,6 @@ footer .x10-imp-ref {
 }
 
 
-/* CTA */
-
 /* MEDIA */
 
 @media (max-width: 575px) {
@@ -190,6 +240,10 @@ footer .x10-imp-ref {
   }
   .x10 {
     padding: 15px 0;
+  }
+  .x10-cta {
+    top: 15px;
+    bottom: 0;
   }
  }
 
