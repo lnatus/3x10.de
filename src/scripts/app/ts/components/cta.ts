@@ -8,7 +8,7 @@ namespace X10 {
         const template = `<div class="x10-cta" id="x10-cta-fb">
                             <div class="x10-cta-head">
                                 <i id="x10-cta-fb-close" class="fa fa-close"></i>
-                                <img src="images/cta-fb.png" alt="LARS NATUS FITNESS" />
+                                <img src="images/cta-fb.png" alt="3x10.de" />
                                 <div class="lnf-divider"></div>
                                 <i class="fa fa-facebook-square"></i>
                               </div>
