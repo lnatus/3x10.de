@@ -34,6 +34,10 @@ h6 {
   font-size: 1.2rem;
 }
 
+strong {
+  font-weight: bolder;
+}
+
 /* COLORS */
 
 .x10-cl-white {
