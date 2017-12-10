@@ -233,6 +233,31 @@ footer .x10-imp-ref {
   text-align: justify;
 }
 
+/* ADS */
+
+.x10-amz {
+  margin: 30px 0;
+  padding: 10px;
+  color: #222;
+
+  background: #FFF;
+}
+
+.x10-amz img {
+  margin: 0;
+  max-height: 100px;
+}
+
+.x10-amz a,
+.x10-amz a:hover {
+  color: #222;
+
+}
+
+.x10-amz .btn-amz {
+  color: #222;
+  background: #FD9827;
+}
 
 /* MEDIA */
 
