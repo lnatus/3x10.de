@@ -7,6 +7,8 @@ Files
 	images/content/2017/12/1-m.png
 	images/content/2017/12/2-m.png
 	images/content/2017/12/3-m.png
+	images/content/2017/12/4-m.png
+	images/content/2017/12/5-m.png
 	images/favicons/favicon-16x16.png
 	images/favicons/favicon-32x32.png
 	images/favicons/favicon-64x64.png
