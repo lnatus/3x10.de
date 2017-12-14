@@ -237,6 +237,18 @@ footer .x10-imp-ref {
   text-align: justify;
 }
 
+.x10-post-next {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.x10-post-next img {
+  margin: 0 0 5px 0;
+}
+
+.x10-post-next h4 {
+  font-size: 0.8rem;
+}
 /* ADS */
 
 .x10-amz {
