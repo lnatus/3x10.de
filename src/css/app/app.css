@@ -127,6 +127,10 @@ footer .x10-imp-ref {
   padding: 60px;
 }
 
+.x10-block {
+  display: block;
+}
+
 /* COMPONENTS */
 
 .x10-logo {
@@ -274,7 +278,10 @@ footer .x10-imp-ref {
     top: 15px;
     bottom: 0;
   }
- }
+  .x10-hide-mobile {
+    display: none;
+  }
+}
 
 @media (max-width: 767px) {
 
